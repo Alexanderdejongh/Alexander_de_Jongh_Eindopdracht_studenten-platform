@@ -1,0 +1,20 @@
+https://colorhunt.co/palette/220248
+
+letteryypes:
+https://www.w3schools.com/howto/tryit.asp?font=Bangers
+https://www.w3schools.com/howto/tryit.asp?font=Amatic%20SC
+https://www.w3schools.com/howto/tryit.asp?font=Amita
+https://www.w3schools.com/howto/tryit.asp?font=Annie%20Use%20Your%20Telesope
+
+Tutorials:
+React Image Slideshow Tutorial:
+https://www.youtube.com/watch?v=3ax9TW2c2bY
+https://www.youtube.com/watch?v=eBKcGAhkZUI
+https://www.youtube.com/watch?v=lq6p46IVhP0
+
+2:
+https://www.youtube.com/watch?v=MBaw_6cPmAw
+
+
+Slider autoplay:
+https://react-id-swiper.ashernguyen.site/example/auto-play

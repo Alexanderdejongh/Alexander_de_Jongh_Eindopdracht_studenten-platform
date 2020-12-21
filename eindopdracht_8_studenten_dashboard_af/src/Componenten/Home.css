@@ -1,0 +1,103 @@
+.homeTitle {
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Amita';
+    color: #f05454;
+    font-size: 55px;
+}
+
+.StudentFoto {
+    height: 500px;
+    background-image: url('../Pics/Studenten.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+
+.textContainer {
+    margin: 30px 25%;
+    padding: 30px 10%;
+    background-color: #f05454;
+    color: #222831;
+    font-family: 'Amatic SC';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.textHome {
+    text-align: center;
+}
+
+.slideContainerTitle {
+    background-color: #222831;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Amita';
+    color: #f05454;
+    font-size: 55px;
+    border-bottom: 5px solid #f05454;
+}
+
+.slideContainer {
+    height: 100vh;
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.swiper-container {
+    width: 500px;
+    height: 750px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    height: 750px;
+}
+
+@media (max-width: 1000px) {
+    .homeTitle {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 820px) {
+    .homeTitle {
+        font-size: 36px;
+    }
+    .slideContainerTitle {
+        font-size: 36px;
+    }
+    .textContainer {
+        margin: 30px 20%;
+    }
+}
+
+@media (max-width: 650px) {
+    .homeTitle {
+        font-size: 24px;
+    }
+    .slideContainerTitle {
+        font-size: 36px;
+    }
+    .slideContainer {
+        margin: 0 10%;
+    }
+    .textContainer {
+        margin: 30px 15%;
+    }
+}
+
+@media (max-width: 520px) {
+    .homeTitle {
+        font-size: 22px;
+    }
+    .slideContainer {
+        margin: 0 2%;
+    }
+    .textContainer {
+        margin: 30px 10%;
+    }
+}

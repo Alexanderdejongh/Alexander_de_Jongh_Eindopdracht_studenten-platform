@@ -1,0 +1,76 @@
+.aboutMeTitle {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Bangers';
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.ThisIsMeTextBox1 {
+    background-color: #222831;
+}
+
+.ThisIsMeTextParagraphBox {
+    padding: 40px;
+}
+
+.ThisIsMeTextBox1 p {
+    text-align: center;
+    font-family: 'Amatic SC';
+    padding: 5px 0;
+    letter-spacing: 1px;
+    color: #e8e8e8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ThisIsMeText {
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #f05454;
+    font-family: 'Amita';
+    padding: 10px 0;
+}
+
+.pc {
+    height: 500px;
+    background-image: url('../Pics/PC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.meFace {
+    height: 100vh;
+    background-image: url('../Pics/Sander.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.lastone {
+    border-bottom: 80px solid #222831;
+}
+
+@media (max-width: 1020px) {
+    .ThisIsMeText {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .ThisIsMeTextBox1 p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 760px) {
+    .ThisIsMeText {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .ThisIsMeTextBox1 p {
+        font-size: 16px;
+    }
+}

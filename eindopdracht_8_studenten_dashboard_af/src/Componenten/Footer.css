@@ -1,0 +1,28 @@
+.Footer {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f05454;
+}
+
+.FooterLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterLink a {
+    color: #222831;
+}
+
+.FooterText p {
+    font-family: 'Bangers';
+    color: #222831;
+    font-size: 42px;
+}

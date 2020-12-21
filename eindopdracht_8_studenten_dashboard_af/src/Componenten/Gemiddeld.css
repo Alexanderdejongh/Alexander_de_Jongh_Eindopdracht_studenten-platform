@@ -1,0 +1,81 @@
+.GemiddeldeTitle {
+    background-color: #f05454;
+    text-align: center;
+    padding: 20px;
+}
+
+.GemCardAndLineContainer {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.GrafiekenContainer2 {
+    min-height: 100vh;
+    background-color: #222831;
+}
+
+.GrafiekenContainer2 .ColorsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid #f05454;
+}
+
+.GrafiekenContainer2 .ColorsContainer .ColorBox {
+    padding: 10px 20px;
+}
+
+.GrafiekenContainer2 .ColorsContainer .ColorBox p {
+    color: #e8e8e8;
+    padding: 0 20px;
+}
+
+.GrafiekenContainer2 .ColorsContainer .ColorBox .Leuk {
+    padding-left: 20px;
+}
+
+.checkPerStudent {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #e8e8e8;
+    font-family: 'Amita';
+    font-size: 22px;
+    z-index: 999;
+}
+
+.checkPerStudent div {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.checkPerStudent div input {
+    margin: 10px 5px;
+}
+
+.checkPerStudent button {
+    padding: 5px 10px;
+    background-color: #f05454;
+    font-family: 'Amita';
+    font-size: 18px;
+    color: #222831;
+    transform: all 300ms ease-in-out;
+}
+
+.checkPerStudent button:hover {
+    background-color: #222831;
+    font-size: 18px;
+    color: #f05454;
+}
+
+@media (max-width: 1280px) {
+    .GemCardAndLineContainer {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

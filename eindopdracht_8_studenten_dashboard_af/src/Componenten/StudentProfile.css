@@ -1,0 +1,82 @@
+.PersonBox {
+    min-width: 400px;
+    height: 700px;
+    border: 2px solid #222831;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.NameTitlebox {
+    width: 100%;
+}
+
+.NameTitle {
+    padding: 0;
+    font-family: 'Bangers';
+    background-color: #f05454;
+    padding: 10px 0;
+    border-radius: 25px 25px 0 0;
+}
+
+.ProfilePic {
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.text1 {
+    background-color: #f05454;
+    color: #222831;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Amita';
+    font-size: 22px;
+}
+
+.text2 {
+    background-color: #222831;
+    color: #e8e8e8;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Amita';
+    border-radius: 0 0 22px 22px;
+}
+
+@media (max-width: 1122px) {
+    .text1 {
+        font-size: 18px;
+    }
+    .text2 {
+        font-size: 14px;
+    }
+    .ProfilePic {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 840px) {
+    .PersonBox {
+        height: 600px;
+    }
+    .NameTitle {
+        font-size: 22px;
+        font-family: 'Bangers';
+        padding: 5px 0;
+        border-radius: 25px 25px 0 0;
+    }
+    .text1 {
+        font-size: 16px;
+    }
+    .text2 {
+        font-size: 12px;
+    }
+    .ProfilePic {
+        width: 180px;
+        height: 180px;
+    }
+}
